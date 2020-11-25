@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wraper {
+    margin: 0 auto;
+    width: 940px;
+}
+
+header {
+    height: 92px;
+}
+
+.menu {
+    height: 100%;
+    width: 100%;
+}
+
+.menu img {
+    height: 26.9px;
+    float: left;
+    margin: 36px 122.4px 30px 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 38px 30px 0 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #111
+}
+
+.menu ul li a:visited,
+a:active {
+    font-weight: 900;
+}
+
+.img_container {
+    width: 100%;
+    height: 360px;
+    background-color: #FBDFDB;
+    border-radius: 30px;
+}
+
+.img_container img {
+    height: 300px;
+    float: right;
+    bottom: 0;
+    padding: 60px 100px 0 259px;
+}
+
+.img_container_description {
+    font-family: 'Roboto', sans-serif;
+    width: 320px;
+    float: left;
+    position: absolute;
+    padding: 117px 0 0 60px;
+}
+
+.img_container_description h1 {
+    font-size: 32px;
+    font-weight: bold;
+    max-width: 305px;
+}
+
+.img_container_description p {
+    max-width: 320px;
+    font-weight: 400;
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.7;
+}
+
+h2 {
+    padding-top: 50px;
+    font-size: 24px;
+}
+
+.cards {
+    margin: 20px 0 50px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card img {
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#author {
+    font-size: 14px;
+    color: #777
+}
+
+footer {
+    text-align: center;
+    height: 62px;
+    background-color: #eee;
+    color: #999999;
+    font-size: 14px;
+}
+
+footer p {
+    padding-top: 23px;
+}
+
+
+/* >>>>> PAGINA SOBRE <<<<<*/
+
+.sobre_material h3 {
+    font-size: 24px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.sobre_material p {
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.sobre_material h4 {
+    font-size: 20px;
+}
+
+
+/*>>>>> Modal <<<<<*/
+
+.modal_overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal {
+    background-color: #fff;
+    width: 660px;
+    height: 500px;
+    position: relative;
+    margin: 100px auto;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.modal h2 {
+    font-weight: 400;
+    padding-top: 0;
+    margin-bottom: 5px;
+}
+
+.modal p {
+    color: #777;
+    margin-bottom: 60px;
+}
+
+.modal img {
+    width: 600px;
+    height: 250px;
+    margin: 30px 30px;
+}
+
+.close_modal {
+    text-decoration: none;
+    color: #777;
+    position: absolute;
+    margin-bottom: 30px;
+}
+
+.modal_overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
